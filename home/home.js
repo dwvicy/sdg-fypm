@@ -1,6 +1,5 @@
 const trash = "https://image.flaticon.com/icons/svg/1214/1214428.svg"
 //js
-//js
 
 document.getElementById('add-task').addEventListener('click', function () {
     let taskValue = document.getElementById('task-value').value;
