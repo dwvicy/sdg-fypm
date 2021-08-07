@@ -229,6 +229,7 @@ body {
   font-size: 16px;
   line-height: 19px;
   border: none;
+  
 }
 #add-task-form #task-value ::placeholder {
   color: #E4E6E8;
