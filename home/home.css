@@ -129,7 +129,7 @@ table {
 header {
   display: flex;
   background-color: white;
-  height: 70px;
+  height: 100px;
   border-bottom: solid 1px lightgray;
 }
 #navbar {
@@ -146,21 +146,32 @@ header {
   margin: 6px 0;
 }
 
+#logo {
+  width : 28%;
+}
+
+
+#navbar #logo #imglogo {
+  margin-left: 30px;
+  width: 50%;
+  height: auto;
+}
 
 
 #navbar #app-title {
   display: flex;
-  margin-left: 550px;
+ 
 }
 #navbar #app-title #check {
   margin-top: 28px;
 }
 #navbar #app-title h1 {
-  margin-top: 22px;
+ 
+  margin-top: 30px;
   font-family: 'Lato';
   font-style: normal;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 48px;
   line-height: 29px;
   /* identical to box height */
   display: flex;
@@ -215,15 +226,15 @@ body {
 }
 #add-task-form {
   position: absolute;
-  right: 200px;
+  right: 55px;
   display: flex;
 }
 #add-task-form #task-value {
   padding-left: 16px;
   margin-top: 1px;
-  height: 46px;
-  width: 240px;
-  border-radius: 14px;
+  height: 35px;
+  width: 190px;
+  border-radius: 5px;
   margin-right: 8px;
   font-family: 'Lato';
   font-size: 16px;
@@ -241,9 +252,9 @@ body {
 #add-task-form #add-task {
   background: #8B0015;
   border: none;
-  border-radius: 14px;
-  width: 50px;
-  height: 50px;
+  border-radius: 5px;
+  width: 35px;
+  height: 35px;
   font-family: Lato;
   font-weight: 900;
   font-size: 24px;
@@ -257,7 +268,7 @@ body {
   box-shadow: 0px 4px 20px #8B0015;
 }
 #columns {
-    margin-left: 100px;
+    margin-left: -80px;
   margin-top: 40px;
   display: flex;
   flex-wrap: nowrap;
@@ -265,13 +276,44 @@ body {
   -webkit-overflow-scrolling: touch;
   overflow: auto;
 }
+.space{
+    height: 20px;
+}
+#members {
+  flex: 0 0 auto;
+  width: 250px;
+  height: 320px;
+  background: #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-left: 30px;
+  background-color: white;
+}
+.memberheader{
+  margin: 10px 16px 0 20px;
+  font-family: 'Lato';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1a1c1d;
+}
+
+.member{
+    margin: 10px 16px 0 50px;
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #54585A;
+  
+}
 .column {
   flex: 0 0 auto;
   width: 250px;
   height: 520px;
   background: #FFFFFF;
   box-sizing: border-box;
-  border-radius: 14px;
+  border-radius: 5px;
   margin-left: 30px;
   background-color: white;
 }
@@ -298,7 +340,7 @@ body {
   border: 1px solid #EBEDF0;
   box-sizing: border-box;
   border-radius: 14px;
-  min-height: 120px;
+  min-height: 80px;
   width: 200px;
 }
 .task:nth-child(1) {
