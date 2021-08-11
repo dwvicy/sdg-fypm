@@ -27,6 +27,7 @@ const addTask = (taskValue) => {
     task.appendChild(taskContent);
     task.appendChild(trash);
 
+
     let tasks = document.getElementById('tasks-added');
     tasks.insertBefore(task, tasks.childNodes[0]);
 }

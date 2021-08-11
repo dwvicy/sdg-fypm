@@ -343,6 +343,7 @@ body {
   min-height: 80px;
   width: 200px;
 }
+
 .task:nth-child(1) {
   margin-top: 32px;
 }
