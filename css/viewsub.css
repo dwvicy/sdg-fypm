@@ -1,0 +1,58 @@
+body {
+    box-sizing: content-box;
+    padding: 20px 20px;
+    font-family:"TIMES NEW ROMAN";
+  }
+  h1 {
+    font-family:"TIMES NEW ROMAN";
+    text-align: center;
+    font-size: 400%;
+    margin: 0;
+  }
+  h2 {
+      list-style-type: style type circle;;
+    font-weight: bold;
+    font-size: 200%;
+    margin: 10px 0px;
+  }
+  h3 {
+    font-weight: normal;
+    font-size: 140%;
+    margin: 0;
+  }
+  .card {
+    display: grid;
+    grid-column-gap: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    grid-template-columns: [heading] 15% [info] auto;
+    align-items: center;
+    padding: 2% 4%;
+  }
+  
+  .card h1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .card h2 {
+    grid-column-start: 1;
+    justify-content: right;
+  }
+  .card h3 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+  }
+  
+  .card button {
+    grid-column-start: 1;
+    background-color: #e97b5f; /* Green */
+    border: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    height: 60px;
+  }
