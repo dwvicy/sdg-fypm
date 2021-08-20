@@ -1,0 +1,149 @@
+.page{
+   background-color: white; 
+}
+h1 { 
+text-align: center; 
+position: absolute;
+width: 1224px;
+height: 44px;
+  
+font-family: Sora;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 60px;
+  
+color: #000000;
+}
+  
+img {
+height: 97px;
+width: 227px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+  
+}
+  
+
+
+.submod{
+position: absolute;
+width: 1295.25px;
+height: 720px;
+left: 72px;
+top: 228.69px;
+
+background: #D5CDCD;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.pn p{
+    position: absolute;
+    width: 380px;
+    height: 20px;
+    left: 131.42px;
+    top: 316.21px;
+    
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 31px;
+    
+    color: #000000;
+    
+    transform: rotate(-0.12deg);
+}
+
+.pn input{
+position: absolute;
+width: 318.84px;
+height: 48px;
+left: 384.4px;
+top: 315.69px;
+
+background: #FFFFFF;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 7px;
+transform: rotate(-0.12deg);
+}
+
+.pa p{
+position: absolute;
+width: 224px;
+height: 32px;
+left: 131.64px;
+top: 421.21px;
+
+font-family: Sora;
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 31px;
+
+color: #000000;
+
+transform: rotate(-0.12deg);
+
+}
+
+.pa input{
+    position: absolute;
+    width: 871px;
+    height: 108px;
+    left: 384.58px;
+    top: 403.69px;
+    
+    background: #FFFFFF;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    transform: rotate(-0.12deg);    
+}
+
+.fs p{
+position: absolute;
+width: 223px;
+height: 32px;
+left: 131.95px;
+top: 571.21px;
+
+font-family: Sora;
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 31px;
+
+color: #000000;
+
+transform: rotate(-0.12deg);
+}
+
+
+
+.fs button{
+position: absolute;
+width: 267px;
+height: 61px;
+left: 384px;
+top: 572px;
+color:white;
+
+background: #8B0015;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+}
+
+.submit button{
+position: absolute;
+width: 223px;
+height: 81.09px;
+left: 585.42px;
+top: 801.28px;
+color: white;
+background: #8B0015;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+transform: rotate(-0.12deg);
+}
