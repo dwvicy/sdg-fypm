@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header img{
+    width: 160px;
+    margin-top: 10px;
+    margin-left: 10px;
+   
+}
+header nav{
+    background-color: #8B0015;
+    height: 23px;
+    margin: 6px;
+}
+   
+
+.container1{
+            background-color: #D4CDCD;
+            width: 821px;
+            height: 562px;
+            margin-left: 275px;
+            margin-top: 45px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px 2px #00000066 ;
+            margin-bottom: 35px;
+}
+.container1 h1{
+    padding-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 303px;
+} 
+.container1 h3{
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.container1 h3 p{
+    margin-bottom: 20px;
+    margin-left: 5px;
+
+}
+.container1 h3 input{
+    margin-left: 5px;
+    width: 200px;
+    height: 20px;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+.container1 textarea{
+    margin-top: -37px;
+    margin-left: 195px;
+    width: 535px;
+    height: 184px;
+    
+    margin-bottom: 60px;
+    padding-left: 5px;
+    padding-top: 5px;
+    border-radius: 5px;
+}
+.container1 p1{
+    margin-left: 40px;
+   
+}
+.container1 p2{
+    margin-left: 40px;
+}
+.container1 p3{
+    
+    padding-bottom: 5px;
+    margin-top: -40px;
+    margin-left: 351px;
+    float: left;
+    
+}
+.bt2{
+    
+    
+    margin-left: 10px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 6px;
+    background-color: #8B0015;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+}
+.bt3:hover{
+    background-color: #a82d41;
+}
+.bt3 {
+    margin-left: 60px;
+    margin-top: 50px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 6px;
+    background-color: #8B0015;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+}
+
