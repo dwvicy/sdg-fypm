@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+  <header>
+   
+  <div class="container">
+    
+    <h1>Login</h1>
+    <p> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+        class="bi bi-person-lines-fill" viewBox="0 0 16 16">
+        <path
+          d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z" />
+      </svg> Username : <input type="text" placeholder="Username"></p>
+    <p> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill"
+        viewBox="0 0 16 16">
+        <path
+          d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" />
+      </svg> Password : <input type="password" placeholder="Password"></p>
+    <div class="Faculty">
+      <input type="radio" id="Faculty" name="logins" value="Faculty Login" checked>
+      <label for="Faculty"><b>Faculty Login</b> </label>
+    </div>
+
+    <div class="Student">
+      <input type="radio" id="Student" name="logins" value="Student Login">
+      <label for="Student"><b>Student Login</b></label>
+    </div>
+
+    <div class="Admin">
+      <input type="radio" id="Admin" name="logins" value="Admin Login">
+      <label for="Admin"><b>Admin Login</b></label>
+    </div>
+    <button class="btn">Login</button>
+    <button class="btn2">Sign up</button>
+  </div>
+
+
+</body>
+
+</html>

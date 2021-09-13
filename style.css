@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    
+    h1{
+        margin-left: 77px;
+        margin-bottom: 35px;
+        margin-right: 88px;
+    } 
+    body{
+        background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url("dd.jpg") ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        
+    }   
+   .container p 
+   {
+               margin-bottom: 22px;
+               font-size: large;
+               
+    }
+    .container p input 
+    {
+        border-radius: 5px;
+        padding-left: 10px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+    .container 
+    {
+        float: right;
+        width: 323px;
+        height: 400px;
+        background-color: rgb(234, 232, 232);
+        color: black;
+        margin-top: 210px;
+        margin-right: 70px;
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align: center;
+        border-radius: 25px;
+        margin-right: 567px;
+        box-shadow: 0 0 10px 2px #00000066;
+    }
+    
+    .logo img{
+        margin-left: 60px;
+        height: 40px;
+    }
+    .Faculty
+    {
+        padding-bottom: 10px;
+    }
+    .Student
+    {
+        padding-bottom: 10px;
+    }
+    .Admin
+    {
+        padding-bottom: 10px;
+        padding-right: 5px;
+    }
+    .btn:hover
+    {
+        background-color: #941127;
+    }
+    .btn 
+    {
+        background-color:rgb(141, 49, 49) ;
+        color: rgb(255, 255, 255);
+        width:180px;
+        height:30px;
+        margin-top: 10px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        padding-right: 8px;
+        padding-left: 8px;
+        border-radius: 5px;
+    }
+    .btn2:hover{
+        background-color: #941127;
+    }
+    .btn2
+    {
+        background-color: rgb(141, 49, 49);
+        color: rgb(255, 255, 255);
+        width:180px;
+        height:30px;
+        margin-top: 20px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        padding-right: 8px;
+        padding-left: 8px;
+        border-radius: 5px;
+    }
+    .button{
+       padding-left: 10px;
+       padding-right: 10px;
+
+    }
+    
